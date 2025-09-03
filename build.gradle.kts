@@ -67,3 +67,4 @@ publishing {
         }
     }
 }
+println( "actor ${System.getenv("GITHUB_ACTOR")}")
