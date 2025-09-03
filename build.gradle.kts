@@ -59,7 +59,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/jjelliott/imgui-java")
+            url = uri("https://maven.pkg.github.com/jjelliott/imgui-starter")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
@@ -67,4 +67,3 @@ publishing {
         }
     }
 }
-println( "actor ${System.getenv("GITHUB_ACTOR")}")
