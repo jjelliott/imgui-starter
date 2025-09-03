@@ -45,7 +45,7 @@ publishing {
             pom {
                 name.set(project.name)
                 description.set("ImGui Java Library")
-                url.set("https://github.com/jjelliott/imgui-java")
+                url.set("https://github.com/jjelliott/imgui-starter")
                 licenses {
                     license {
                         name.set("MIT License")
