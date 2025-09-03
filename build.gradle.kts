@@ -35,7 +35,7 @@ java {
 
 publishing {
     publications {
-        create<MavenPublication>("maven") {
+        create<MavenPublication>("gpr") {
             groupId = project.group.toString()
             artifactId = project.name
             version = project.version.toString()
